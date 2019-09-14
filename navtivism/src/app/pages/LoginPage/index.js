@@ -1,8 +1,12 @@
 import React from 'react';
+import { Formik } from 'formik';
 
 const LoginPage = () => {
     return (
-        <div>LoginPage</div>
+        <Formik initialValues={{
+            password: ''
+        }}
+        />
     );
 };
 
