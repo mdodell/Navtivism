@@ -1,3 +1,8 @@
 export const initialValues = {
-    password: ''
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+    protestInterests: []
 };
